@@ -100,7 +100,7 @@ ul{
 #todo-list li{
     display: flex;
     align-content: left;
-    width:100px;
+    width:30%;
     padding: 3px 0px;
     font-size: 25px;
     align-items: center;
