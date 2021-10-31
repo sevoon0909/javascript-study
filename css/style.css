@@ -47,7 +47,7 @@ ul{
 
 #clock{
     text-align: center;
-    font-size: 160px;
+    font-size: 130px;
 }
 
 #login-form {
@@ -100,10 +100,8 @@ ul{
 #todo-list li{
     display: flex;
     align-content: left;
-    width:30%;
-    padding: 3px 0px;
+    width:50%;
     font-size: 21px;
-    align-items: center;
 }
 
 #quote{
