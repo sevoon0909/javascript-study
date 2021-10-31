@@ -1,3 +1,123 @@
+@import "reset.css";
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    display: flex;
+    height: 2%;
+    justify-content: flex-end;
+    margin: 10px 10px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 95%;
+}
+
+.bottom{
+    display: flex;
+    height: 2%;
+    justify-content: flex-end;
+}
+
 .hidden{
     display: none;
+}
+
+.delete-btn{
+    color: red;
+    font-weight:bold;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+#clock{
+    text-align: center;
+    font-size: 160px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#login-form input{
+    border: none;
+    padding: 4px 0px;
+    font-size: 30px;
+    border-bottom: 2px solid rgba(243, 239, 239, 0.938);
+    background-color: transparent;
+    color: white;
+}
+
+#greeting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#todo-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#todo-form input{
+    border: none;
+    padding: 4px 0px;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(243, 239, 239, 0.938);
+    background-color: transparent;
+    color: white;
+}
+
+#todo-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#todo-list li{
+    display: flex;
+    align-content: left;
+    width:100px;
+    padding: 3px 0px;
+    font-size: 25px;
+    align-items: center;
+}
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 10px;
+}
+
+#quote span:first-child{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+::placeholder {
+    color: white;
 }
